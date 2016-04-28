@@ -18,7 +18,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75;
 }
 
@@ -272,13 +272,14 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
-	
 }
 
 header .intro-text {
+
+	top: 50%; left: 50%;
     padding-top: 100px;
     padding-bottom: 50px;
-	z-index: 9999;
+	transform: translate(-0%, -0%);
 }
 
 header .intro-text .intro-lead-in {
@@ -287,7 +288,6 @@ header .intro-text .intro-lead-in {
     font-size: 22px;
     font-style: italic;
     line-height: 22px;
-
 }
 
 header .intro-text .intro-heading {
@@ -297,6 +297,8 @@ header .intro-text .intro-heading {
     font-size: 50px;
     font-weight: 700;
     line-height: 50px;
+
+
 }
 
 @media(min-width:768px) {
