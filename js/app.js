@@ -10,8 +10,6 @@ particlesJS.load('particles-js', 'particles.json', function() {
 */
 
 /* Otherwise just put the config content (json): */
-var isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-if (!isMobile) {
 particlesJS('particles-js',
   
   {
@@ -131,4 +129,4 @@ particlesJS('particles-js',
     }
   }
 
-)};
+);
