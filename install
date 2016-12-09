@@ -1,3 +1,5 @@
 #!/bin/bash
-curl -sL https://raw.githubusercontent.com/datafibers-community/df_demo/master/df-environment/df-env-app-init/install_df.sh
+curl -Osk https://raw.githubusercontent.com/datafibers-community/df_demo/master/df-environment/df-env-app-init/install_df.sh
+chmod +x install_df.sh
 ./install_df.sh
+rm install_df.sh
